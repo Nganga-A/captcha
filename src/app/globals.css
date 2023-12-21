@@ -25,3 +25,34 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body {
+  padding: 33px;
+  color: white;
+  background: black;
+}
+
+main {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input, button {
+  padding: 5px;
+  margin: 10px 0; 
+  border-radius: 4px;
+}
+
+input {
+  width: 100
+}
+
+button {
+  padding : 5px 30px;
+  background: gray;
+  
+}
+
+button:hover {
+  color: aqua;
+}
