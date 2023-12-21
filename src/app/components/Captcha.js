@@ -1,5 +1,7 @@
 export default function Captcha() {
     return (
-        <div></div>
+        <div>
+            <p>captcha goes here</p>
+        </div>
     )
 }
