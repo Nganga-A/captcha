@@ -49,11 +49,26 @@ input {
 }
 
 button {
-  padding : 5px 30px;
+  padding : 5px 20px;
   background: gray;
+  transition: transform 0.2s ease-in-out;
   
 }
 
 button:hover {
   color: aqua;
+  transform: scale(1.1);
+}
+
+.captcha-images {
+  background: white;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.captcha-images > div {
+  border: 1px solid red;
 }
