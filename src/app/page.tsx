@@ -2,6 +2,10 @@
 
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <input type="text" placeholder="Message"/>
+      <div>captcha</div>
+      <button>Send</button>
+    </div>
   )
 }
